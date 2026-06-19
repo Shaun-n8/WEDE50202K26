@@ -1,0 +1,83 @@
+/*css Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    font-family: Impact, sans-serif;
+    font-size: 3rem;
+    color: greenyellow;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 4px solid greenyellow;
+
+}
+
+ul.navigation{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    background-color: green;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.navigation :hover{
+
+    background-color:red;
+}
+
+
+
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: burlywood;
+}
+.container div{
+    background-color: yellowgreen;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: goldenrod;
+  }
+  ul.navigation{
+    display: block;
+    list-style-type: none;
+    gap: 20px;
+    background-color: green;
+
+}
+.navigation a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 10pt;
+}
+ h1{
+    font-size: 14pt;
+
+ }
+}
+
